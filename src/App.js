@@ -21,16 +21,53 @@ function App() {
   //   </>
   // )
   // return (
-  //   <div className="flex space-x-20">
-  //     <div className="w-36 h-36 bg-pink-600 items-center justify-center flex">Box1</div>
-  //     <div className="grow bg-pink-600 items-center justify-center flex">Box2</div>
+  //   <div className="flex flex-col sm:flex-row sm:space-x-2 justify-around">
+  //     <div className="w-36 h-36 bg-pink-600 items-center justify-center flex mb-2">Box1</div>
+  //     <div className="w-36 h-36 bg-pink-600 items-center justify-center flex mb-2">Box2</div>
   //     <div className="w-36 h-36 bg-pink-600 items-center justify-center flex">Box3</div>
   //   </div>
   // )
+  // return(
+  //   <div className="flex-wrap">
+  //     <p className="basis-2/3 bg-red-500 px-1">Main Content</p>
+  //     <p className="basis-1/3 bg-cyan-300 px-1">Side Heading</p>
+  //   </div>
+  // )
+
+  // Beautiful Art with grids
+  // return (
+  //   <div className="h-screen bg-slate-950 space-y-20">
+  //     <div className="bg-slate-950 text-white">
+  //       <div className="container mx-auto">
+  //         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center">1</div>
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center">2</div>
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center items-center row-span-2">3</div>
+  //           <div className="bg-red-400 p-6 rounded flex justify-center col-span-2">4</div>
+  //           {/*<div className="bg-blue-400 p-6 rounded flex justify-center">5</div>*/}
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center">6</div>
+  //           <div className="bg-green-400 p-6 rounded flex justify-center col-span-2">7</div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //     <div className="bg-slate-950 text-white">
+  //       <div className="container mx-auto">
+  //         <div className="grid grid-cols-6 gap-3">
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center col-start-2 col-span-4">1</div>
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center col-span-2">2</div>
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center col-start-5 col-span-2">3</div>
+  //           <div className="bg-blue-400 p-6 rounded flex justify-center col-span-full">4</div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // )
+
   return(
-    <div className="flex">
-      <p className="basis-2/3 bg-red-500">Main Content</p>
-      <p className="basis-1/3 bg-blue-500">Side Heading</p>
+    <div className="h-screen text-white bg-slate-950">
+      <div className="container bg-red-500">
+        <h1>Helloo!!!</h1>
+      </div>
     </div>
   )
 }
